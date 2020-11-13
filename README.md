@@ -11,5 +11,30 @@ I choose a subset of the American Hospital Association Annual survey 2017(AHA) a
 # Results
 From the linear model, we can conclude that there is a significant positive correlation between TDPSH and number of beds (F=9121, p<2e-16, slope=3.606e-03, see Table 2 in Appendix A). We also have significant evidence that there is a relationship between hospital size and TYPE (χ2=26.19, p=8.705e-06, see Table 1, 3 in Appendix A) from the chi-square t test. Then from the two-sample z-test, we further find that hospitals owned by for-profit organisations are less likely to possess hospitals of big size than church, non-profit organizations and state (χ2=14.716, 23.009, 3.8886, p=0.000125, 1.613e-06, 0.0486). For two-sample t test, we find the number of beds for hospitals with rurual referral center is significantly larger than those without (t=-4.53, p=8.453e-06, mean(without)=221, mean(with)=275, see Appendix A Table 4).
 
+**Tables with descriptive statistics, tests of association, and p-values**
+
+Table 1. Descriptive statistics for American Hospital Association Annual Survey 2017 [AHA]. N = 2412.
+<img width="548" alt="Screenshot 2020-11-13 at 2 37 52 PM" src="https://user-images.githubusercontent.com/73702692/99037364-84629800-25be-11eb-8913-f46237f5e6ba.png">
+
+Table 2. Linear regression results of bed numbers regressed on total number of days patients spend in hospital in the American Hospital Association Annual Survey 2017 (AHA). N = 2412.
+<img width="557" alt="Screenshot 2020-11-13 at 2 42 21 PM" src="https://user-images.githubusercontent.com/73702692/99037371-875d8880-25be-11eb-8113-19401b10e84d.png">
+
+Table 3. Chi-square results: small and big size hospital by organization type that owns the hospital. American Hospital Association Annual Survey 2017 (AHA). N = 2412.
+<img width="550" alt="Screenshot 2020-11-13 at 2 38 16 PM" src="https://user-images.githubusercontent.com/73702692/99037377-89274c00-25be-11eb-9b32-e7fa2919a6c3.png">
+
+Table 4. 2-sample t-test results: number of beds by presence of rural referral center. American Hospital Association Annual Survey 2017 (AHA). N = 2412.
+<img width="548" alt="Screenshot 2020-11-13 at 2 38 24 PM" src="https://user-images.githubusercontent.com/73702692/99037385-8af10f80-25be-11eb-8215-dbc8cf3f4a3e.png">
+
+**Bi-variate plots of Number of beds or Category of beds by total number of days patients spent in hospital, type of organization that owns hospital and the presence of rural referral center.**
+
+Figure 1. Association between Total number of days patients spent in hospital and number of beds. American Hospital Association Annual Survey 2017 (AHA). N = 2412.
+<img width="362" alt="Screenshot 2020-11-13 at 2 38 31 PM" src="https://user-images.githubusercontent.com/73702692/99037390-8cbad300-25be-11eb-9ebf-7e80e6d285b3.png">
+
+Figure 2. Association between type of organization that owns hospital and hospital size. American Hospital Association Annual Survey 2017 (AHA). N = 2412.
+<img width="478" alt="Screenshot 2020-11-13 at 2 38 39 PM" src="https://user-images.githubusercontent.com/73702692/99037397-904e5a00-25be-11eb-8d15-1e0a6c92895c.png">
+
+Figure 3. Association between the presence of rural referral center and number of beds. American Hospital Association Annual Survey 2017 (AHA). N = 2412.
+<img width="527" alt="Screenshot 2020-11-13 at 2 38 47 PM" src="https://user-images.githubusercontent.com/73702692/99037408-93494a80-25be-11eb-8ba7-d965e21a5d40.png">
+
 # Discussion
 From the result, we could further infer that 1) As there are more needs for patients to stay in hospital, the hospital will adjust its size to accommodate those needs. This correlates with common sense. 2) Different organizations with different needs and funding will have preference for hospitals of different sizes. It’s understandable that for-profit hospitals are usually owned by private owners, so they may be smaller. 3) Hospitals with a rural referral center tend to be larger to accommodate more patients and meet needs in rural areas. Moreover, from the plots in Appendix B we find three hospital outliers with over 2000 beds. The unusually large-scale hospitals could be explored further. However, sometimes number of beds can’t accurately reflect hospital size and scale so other factors like square footage may be included1.
